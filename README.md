@@ -1,6 +1,6 @@
 CarDealer contains the scraped data.
 
-PBI contains the Power BI model which is in the very early stages.
+PBI contains the Power BI model which is in the very early stages. In order to view it you will have to click "view raw" to download it.
 
 Power Automate/Brandon Honda contains a walkthrough of the Power Automate Scrapers.
 
