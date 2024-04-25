@@ -10,4 +10,4 @@ Python contains the Python file used to import the extracted data in the excel f
 
 SSMS contains all the SQL files used to create the tables and stored procedures to process the raw data. I did not include the stored procedures script, but each dealerships data processing script is run in it's own wrapper under the dealership name, then those wrappers are run under a main wrapper along with the additional cleaning steps and vehicle ID aggregation.
 
-The total time invested in this project so far is maybe 15 hours, so there is still a lot of work to be done. However, it demonstrates how quickly a data pipeline can be created with Power Automate, Python, SQL, and Power BI.
+The project was started on 4/17 and I only get to work on it a few hours at most after work, so there is still a lot to be done. However, it demonstrates how quickly a data pipeline can be created with Power Automate, Python, SQL, and Power BI.
