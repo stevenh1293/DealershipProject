@@ -1,0 +1,5 @@
+Task scheduler uses this Powershell script to run the pyton file using python (py)
+
+PShell script contents:
+py C:PATHTO\Projects\Python\#Import_from_Excel.py
+

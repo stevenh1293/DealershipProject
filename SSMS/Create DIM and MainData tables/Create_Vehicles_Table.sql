@@ -1,0 +1,20 @@
+CREATE TABLE Vehicles (
+  vVehicleID int IDENTITY(1,1) NOT NULL, 
+  vVehicleIDAgg int,
+  RawVIN nvarchar(200),
+  RawMake nvarchar(200),
+  RawYear int,
+  RawModel nvarchar(200),
+  RawExteriorColor nvarchar(200),
+  RawInteriorColor nvarchar(200),
+  RawVehicleURL nvarchar(200),
+  vVIN nvarchar(200),
+  vYear int,
+  vMake nvarchar(200),
+  vModel nvarchar(200),
+  vTrim nvarchar(200),
+  vExteriorColor nvarchar(200),
+  vInteriorColor nvarchar(200),
+  vVehicleURL nvarchar(max),
+  CONSTRAINT PK_Vehicles PRIMARY KEY (vVehicleID)
+)
